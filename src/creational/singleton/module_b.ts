@@ -1,5 +1,5 @@
 // -- Classic way to make singleton
-import { MyDatabaseClassic } from './db/Classic_my-database';
+import { MyDatabaseClassic } from './db/Classic_MyDatabase';
 
 const myDatabaseClassic = MyDatabaseClassic.instance;
 myDatabaseClassic.add({ name: 'Matheus', age: 30 });
@@ -9,7 +9,7 @@ myDatabaseClassic.add({ name: 'Julio', age: 20 });
 export { myDatabaseClassic };
 
 // -- Other way to make singleton (using modules)
-import { MyDatabaseModule } from './db/Module_my-database';
+import { MyDatabaseModule } from './db/Module_myDatabase';
 
 const myDatabaseModule = MyDatabaseModule;
 myDatabaseModule.add({ name: 'Lucas', age: 30 });

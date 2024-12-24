@@ -1,5 +1,5 @@
 // -- Classic way to make singleton
-import { MyDatabaseClassic } from './db/Classic_my-database';
+import { MyDatabaseClassic } from './db/Classic_MyDatabase';
 import { myDatabaseClassic as myDbFromModule1 } from './module_b';
 
 const myDatabaseClassic = MyDatabaseClassic.instance;
@@ -10,7 +10,7 @@ myDatabaseClassic.show();
 console.log(myDatabaseClassic === myDbFromModule1);
 
 // -- Other way to make singleton  (using modules)
-import { MyDatabaseModule } from './db/Module_my-database';
+import { MyDatabaseModule } from './db/Module_myDatabase';
 import { myDatabaseModule as myDbFromModule2 } from './module_b';
 
 const myDatabaseModule = MyDatabaseModule;
