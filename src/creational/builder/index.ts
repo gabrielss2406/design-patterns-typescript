@@ -4,13 +4,13 @@ import { Director } from "./classes/Director";
 
 // -- Creating a main dish using the Builder
 // Director is responsible for constructing the object using the builder.
-const mainDishBuilder = new MainDishBuilder();
-const director = new Director(mainDishBuilder);
+const mainDishBuilder = new MainDishBuilder(); // Builder
+const director = new Director(mainDishBuilder); // Director
 
-director.constructSimpleMeal();
+director.constructSimpleMeal(); // Constructing a simple meal
 console.log(mainDishBuilder.getMeal().getPrice());
 
-director.constructFullMeal();
+director.constructFullMeal(); // Constructing a full meal
 console.log(mainDishBuilder.getMeal().getPrice());
 
 // -- Create a vegan dish using the Builder
