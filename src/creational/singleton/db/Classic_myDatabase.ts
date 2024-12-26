@@ -6,11 +6,11 @@ export class MyDatabaseClassic {
 
     private constructor() { }
 
-    static get instance(): MyDatabaseClassic {
-        if (MyDatabaseClassic._instance === null) {
+    static get instance(): MyDatabaseClassic { // Singleton, classic way
+        if (MyDatabaseClassic._instance === null) { // If there is no instance, create one
             MyDatabaseClassic._instance = new MyDatabaseClassic();
         }
-        return MyDatabaseClassic._instance;
+        return MyDatabaseClassic._instance; // If there is an instance, return it
     }
 
     add(user: User): void {

@@ -1,8 +1,8 @@
 // -- Classic way to make singleton
-import { MyDatabaseClassic } from './db/Classic_MyDatabase';
+import { MyDatabaseClassic } from './db/Classic_myDatabase';
 import { myDatabaseClassic as myDbFromModule1 } from './module_b';
 
-const myDatabaseClassic = MyDatabaseClassic.instance;
+const myDatabaseClassic = MyDatabaseClassic.instance; // Singleton, only one instance
 myDatabaseClassic.add({ name: 'Lucas', age: 30 });
 myDatabaseClassic.add({ name: 'Maria', age: 40 });
 myDatabaseClassic.show();
