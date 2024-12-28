@@ -45,11 +45,10 @@ Ao dominar os padrões de design, você estará mais bem preparado para enfrenta
 - **Template Method**: Define o esqueleto de um algoritmo em uma operação, adiando alguns passos para subclasses.
 - **Visitor**: Representa uma operação a ser realizada nos elementos de uma estrutura de objeto.
 
-## Começando
+## Utilização
 
-Para começar com este projeto, clone o repositório e explore os exemplos fornecidos para cada padrão de design. Cada padrão é implementado em um diretório separado com um arquivo README explicando o padrão e sua implementação.
+Para utilizar este projeto, clone o repositório ou apenas explore os exemplos fornecidos para cada padrão de design. Cada padrão é implementado em um diretório separado com um arquivo README explicando o padrão e sua implementação.
 
-```sh
-git clone https://github.com/gabrielss2406/design-patterns-typescript.git
-cd design-patterns-typescript
-```
+## Dúvidas
+
+Se tiver qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato com o dono do repositório.
