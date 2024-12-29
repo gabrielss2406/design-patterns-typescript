@@ -4,20 +4,18 @@
 O padrão Adapter é um padrão de design estrutural que permite que interfaces incompatíveis trabalhem juntas. Ele converte a interface de uma classe em outra interface esperada pelos clientes, permitindo que classes com interfaces incompatíveis colaborem.
 
 ### O que temos aqui
-Este projeto demonstra o uso do padrão Adapter para permitir que classes com interfaces incompatíveis trabalhem juntas. Existem dois exemplos principais:
+Este projeto demonstra o uso do padrão Adapter para permitir que classes com interfaces incompatíveis trabalhem juntas. O exemplo contém o seguinte:
 
-1. **Exemplo 1: Adapter de Tomada**
-    - **Client**: O arquivo `client.js` demonstra como o cliente interage com o adapter.
-    - **Adapter**: O arquivo `adapter.js` implementa a adaptação da interface do adapter.
-    - **Adaptee**: O arquivo `adaptee.js` representa o adapter com a interface incompatível.
+1. **Exemplo**
+    - **Client**: O arquivo `index.js` demonstra como o cliente interage com o adapter.
+    - **Adapter**: Implementação com classes.
+    - **FnAdaptee**: Implementação com funções.
 
 ### Quando usar?
-Você pode usar o padrão Adapter quando:
-- Seguir os princípios SOLID, como o Princípio da Responsabilidade Única (SRP), que sugere que uma classe deve ter apenas um motivo para mudar. Isso ajuda a manter o código mais organizado e fácil de manter.
-- Usar o Princípio da Inversão de Dependência (DIP) para depender de abstrações em vez de implementações concretas, facilitando a adaptação de diferentes interfaces.
-- Aplicar o Princípio da Substituição de Liskov (LSP) para garantir que as subclasses possam ser usadas no lugar das classes base sem alterar o comportamento esperado do programa.
-- Implementar o Princípio da Segregação de Interface (ISP) para criar interfaces específicas e evitar interfaces "inchadas" que forçam as classes a implementar métodos que não utilizam.
-- Respeitar o Princípio da Aberto/Fechado (OCP) para permitir que o código seja estendido sem ser modificado, facilitando a adição de novos Adapters sem alterar o código existente.
+- Quando você precisa integrar classes ou sistemas com interfaces incompatíveis.
+- Quando você deseja reutilizar uma classe existente sem modificar seu código.
+- Quando você precisa adaptar uma interface de uma biblioteca de terceiros para seu sistema.
+- Quando você quer simplificar a interface de um sistema complexo para o cliente.
 
 ### Exemplos de casos de uso
 - **Integração de Sistemas**: O Adapter pode ser usado para integrar sistemas legados com novos sistemas, convertendo interfaces antigas em interfaces novas.

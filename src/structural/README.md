@@ -5,7 +5,7 @@ Os padrões de projeto estruturais são padrões que lidam com a composição de
 ## Tipos de Padrões de Projeto Estruturais
 
 1. **Adapter**
-    - Permite que interfaces incompatíveis trabalhem juntas, convertendo a interface de uma classe em outra interface esperada pelos clientes.
+    - Desacoplando a interface do cliente da interface do serviço, o Adapter permite que classes com interfaces incompatíveis trabalhem juntas sem modificar seu código-fonte.
 
 2. **Bridge**
     - Desacopla uma abstração da sua implementação, permitindo que ambas variem independentemente.
@@ -23,7 +23,7 @@ Os padrões de projeto estruturais são padrões que lidam com a composição de
     - Utiliza o compartilhamento para suportar eficientemente grandes quantidades de objetos de granularidade fina.
 
 7. **Proxy**
-    - Fornece um substituto ou marcador para controlar o acesso a um objeto.
+    - Desacopla o acesso a um objeto, fornecendo um substituto ou marcador para controlar o acesso a ele.
 
 ## Benefícios dos Padrões de Projeto Estruturais
 
